@@ -103,6 +103,7 @@ function selectNeedCrypto(needCrypto, name, curr) {
     if (curr === "BTC") {
         selectCrypto = "BTC";
         critpoV = 'BTC.jpg'
+        QR.src = "img/" + critpoV;
         imgSelectPaymentSel.src = "img/bitcoin.svg";
         selectCrypto = "BTC";
         textConfirmPay.innerHTML = "BTC";
